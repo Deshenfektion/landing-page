@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0px 200px;
+    gap: 50px;
 }
 
 /* header */
@@ -29,13 +30,13 @@ ul {
     gap: 30px;
 }
 
+/* header link text */
 a {
     text-decoration: none;
     color: inherit;
     font-size: 18px;
     color: #e5e7eb;
 }
-
 
 .header-logo-text {
     font-weight: bold;
@@ -45,11 +46,39 @@ a {
 
 button {
     background-color: #3882F6;
+    color: inherit;
+    padding: 5px 20px;
 }
 
 /* hero section */
+.hero-section {
+    display: flex;
+}
+
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+img {
+    width: 400px;
+}
+
 h1 {
+    margin: 0px;
+    padding: 0px;
     font-weight: 800;
     font-size: 48px;
     color: #f9faf8;
+}
+
+/* hero secondary text */
+p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 18px;
+    color: #e5e7eb;
 }
