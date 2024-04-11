@@ -48,11 +48,14 @@ button {
     background-color: #3882F6;
     color: inherit;
     padding: 5px 20px;
+    /* round corners */
+    border-radius: 8px;
 }
 
 /* hero section */
 .hero-section {
     display: flex;
+    justify-content: space-between;
 }
 
 .hero-section .container {
