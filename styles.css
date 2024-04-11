@@ -12,6 +12,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 0px 200px;
+    padding-bottom: 100px;
     gap: 50px;
 }
 
@@ -86,10 +87,13 @@ h1 {
     color: #e5e7eb;
 }
 
-
+/* section-two */
 .section-two {
     background-color: white;
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 100px;
 }
 
 #information-header-text {
@@ -97,3 +101,26 @@ h1 {
     font-weight: 800;
     color: #1f2937;
 }
+
+.information-images-container {
+    display: flex;
+    gap: 20px;
+}
+
+.information-image {
+    width: 200px;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.information-subtext {
+    color: #1f2937;
+}
+
+/* section-three */
