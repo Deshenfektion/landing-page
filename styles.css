@@ -1,0 +1,14 @@
+/* styles.css */
+body {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+button {
+    background-color: #3882F6;
+}
