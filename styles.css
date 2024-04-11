@@ -66,8 +66,9 @@ button {
     gap: 10px;
 }
 
-img {
+#puppies {
     width: 400px;
+    border-radius: 10px;
 }
 
 h1 {
@@ -78,10 +79,21 @@ h1 {
     color: #f9faf8;
 }
 
-/* hero secondary text */
-p {
+#hero-secondary-text {
     margin: 0px;
     padding: 0px;
     font-size: 18px;
     color: #e5e7eb;
+}
+
+
+.section-two {
+    background-color: white;
+    
+}
+
+#information-header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
 }
